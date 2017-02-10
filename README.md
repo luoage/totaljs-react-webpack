@@ -12,7 +12,7 @@ npm install
 
   ```
   node server
-    ```
+  ```
 
 3. Visit http://localhost:8000
 

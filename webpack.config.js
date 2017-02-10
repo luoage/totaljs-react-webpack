@@ -12,7 +12,8 @@ module.exports = {
     },
     output: {
         path: path.resolve('./', 'public'),
-        filename: 'app.bundle.js'
+        filename: 'app.bundle.js',
+        publicPath: '/public/'
     },
 
     module: {
