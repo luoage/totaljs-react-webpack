@@ -1,8 +1,5 @@
 var path = require('path');
 var webpack = require('webpack');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 
 module.exports = {
@@ -43,15 +40,6 @@ module.exports = {
       },
     ]
     },
-/*    , plugins: [
-    new CopyWebpackPlugin([
-      { from: './src/*.svg' },
-      { from: './src/*.css' },
-    ]
-    ),
-    new webpack.HotModuleReplacementPlugin()
-   
-  ],*/
     stats: {
         colors: true
     },

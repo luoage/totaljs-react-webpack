@@ -1,1 +1,2 @@
-require('total.js').http('debug');
+require('total.js');
+F.http('debug');

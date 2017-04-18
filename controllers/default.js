@@ -1,5 +1,17 @@
+
+
+
 exports.install = function() {
 
    
-    F.route('/');
+    F.route('/',function(){
+    
+   
+
+
+       console.log('rendering index');
+this.view('index');
+
+    });
+    
 };

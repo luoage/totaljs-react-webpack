@@ -1,4 +1,4 @@
-# Total.js + React in webpack watching mode and hot reload
+# Total.js + React with webpack 
 
 ## Installation
 
@@ -7,12 +7,17 @@
   ```
 npm install
   ```
+2. Generate bundled react files using webpack, files will be copy to /public
 
-2. Start the server from the root directory of project
+  ```
+  npm run build
+  ```
+
+3. Start the server from the root directory of project
 
   ```
   node server
   ```
 
-3. Visit http://localhost:8000
+4. Visit http://localhost:8000
 
